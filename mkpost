@@ -7,7 +7,7 @@ read -p "Enter the title: " title
 date=$(date +"%Y-%m-%d")
 
 # Define the file path
-file_path="_posts/${title}.md"
+file_path="_posts/${date}-${title}.md"
 
 # Create the new markdown file with front matter
 cat <<EOL > $file_path
