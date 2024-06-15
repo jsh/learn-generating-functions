@@ -1,13 +1,15 @@
 #!/bin/bash -eu
 
 # Prompt for the title
-read -p "Enter the title: " title
+# read -p "Enter the title: " title
 
 # Get today's date
 date=$(date +"%Y-%m-%d")
 
+title="$*"
+
 # Define the file path
-file_path="_posts/${date}-${title}.md"
+file_path="_posts/${date}-${title// /-}.md"
 
 # Create the new markdown file with front matter
 cat <<EOL > $file_path
