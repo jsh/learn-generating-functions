@@ -3,13 +3,13 @@ name: Step 3, Customize your homepage
 # This step triggers after the learner updates their homepage.
 # This workflow updates from step 3 to step 4.
 
-# This will run every time we update `index.md` in the `my-pages` branch.
+# This will run every time we update `index.md` in the `new-content` branch.
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
   push:
     branches:
-      - my-pages
+      - new-content
     paths:
       - index.md
 
@@ -20,7 +20,7 @@ permissions:
   contents: write
 
 jobs:
-  # Get the current step to only run the main job when the learner is on the same step.
+  # Get the current step to only run the master job when the learner is on the same step.
   get_current_step:
     name: Check current step number
     runs-on: ubuntu-latest
@@ -55,7 +55,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Let's get all the branches.
-          ref: my-pages
+          ref: new-content
 
       # In README.md, switch step 3 for step 4.
       - name: Update to step 4
@@ -64,4 +64,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 3
           to_step: 4
-          branch_name: my-pages
+          branch_name: new-content
