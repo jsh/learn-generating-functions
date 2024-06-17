@@ -23,16 +23,35 @@ Good enough.
 
 I have to admit I love the chapter title.
 
-Generating functions are formal polynomials. There's no notion so far of taking them seriously as functions, but I've read that such polynomials can just be thought of as a ring, a field without guaranteed inverses or commutativity.
+Generating functions are formal polynomials. There's no notion so far of taking them seriously as functions, but I've read that such polynomials can just be thought of as a _ring_, which is basically a field without guaranteed inverses or commutativity.
 
-In other words, you can add, subtract, and multiply them. Polynomial multiplication actually is commutative, so I'd guess they aren't a field because some don't have inverses.
+In other words, you can add, subtract, and multiply them. Polynomial multiplication actually is commutative, so I'd guess they only aren't a field because some don't have inverses.
 
 The coefficients of the polynomial terms are the elements of the series.
 
-For now, they're just a notational convenience.
+For now, I see OGFs as a notational convenience.
 
-Next, before I go farther, I need to find out is whether I can write equations
+An example would help, here, but before I go farther, I need to find out is whether I can write equations
 in blogposts. If not, it's going to be tough to blog about generating functions.
+
+### Can I Write Equations Using Markdown?
+
+I'll try a sample example. Let's start with the constant sequence $$1,1,1,1,...$$
+The generating function for this is $$1+x+x^2+x^3+...$$, each coefficient of $x^n$ being $1$ .
+I could write that as $$f(x) = \sum_{n=0}^{\infty} x^n$$
+or, more compactly, as $$f(x) = 1/(1-x)$$
+
+Okey doke, I can use LaTex for equations. Surrounding an equation with '$' displays it correctly; surrounding it with '$$' puts the equation on its own line. Yay.
+
+I'll need more fluency in LaTex, but that's within reach.
+
+### Back to OGFs
+
+Thus, even though $f(x)=1/(1-x)$ blows up when $x=0$, and $$f(x)=\sum_{n=0}^{\infty} x^n$$ diverges if $x \geq 1$, I can use the compact form, unambiguously, to stand for the series $1,1,1,...$ and even manipulate it in useful ways.
+
+Useful how? I'll have to read some more, then post again.
+
+
 
 
 
