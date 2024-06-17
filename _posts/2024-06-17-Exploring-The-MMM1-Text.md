@@ -51,6 +51,17 @@ Thus, even though $f(x)=1/(1-x)$ blows up when $x=0$, and $$f(x)=\sum_{n=0}^{\in
 
 Useful how? I'll have to read some more, then post again.
 
+### Oh, argh.
+
+After deploying this post, I showed it to Jeff Wright in a screen share on a Zoom call. 
+
+And the equations didn't display correctly. Feh.
+
+GitHub itself interprets them correctly, but perhaps Jekyll gets confused.
+Now I have to back up and figure out how to get equations that display correctly in GitHub Markdown to display correctly in a compiled, deployed page.
+
+Back to the drawing board.
+
 
 
 
