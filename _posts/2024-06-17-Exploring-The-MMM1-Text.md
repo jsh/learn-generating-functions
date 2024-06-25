@@ -1,6 +1,7 @@
 ---
 title: "Exploring The MMM1 Text"
 date: 2024-06-17
+layout: post
 ---
 
 I'll start by browsing Mike Zabrocki's MMM1 (Mini-Mathematical Monographs), on Ordinary Generating Functions (OGFs). I'll call it a book, even though it's on-line and only sixty-two pages -- five chapters.
