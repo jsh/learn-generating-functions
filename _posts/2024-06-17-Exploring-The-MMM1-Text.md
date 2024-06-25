@@ -37,7 +37,7 @@ in blogposts. If not, it's going to be tough to blog about generating functions.
 ### Can I Write Equations Using Markdown?
 
 I'll try a sample example. Let's start with the constant sequence $$1,1,1,1,...$$
-The generating function for this is $$1+x+x^2+x^3+...$$, each coefficient of $x^n$ being $1$ .
+The generating function for this is $$1+x+x^2+x^3+...$$, each coefficient of $$x^n$$ being $$1$$ .
 I could write that as $$f(x) = \sum_{n=0}^{\infty} x^n$$
 or, more compactly, as $$f(x) = 1/(1-x)$$
 
@@ -47,7 +47,7 @@ I'll need more fluency in LaTex, but that's within reach.
 
 ### Back to OGFs
 
-Thus, even though $f(x)=1/(1-x)$ blows up when $x=0$, and $$f(x)=\sum_{n=0}^{\infty} x^n$$ diverges if $x \geq 1$, I can use the compact form, unambiguously, to stand for the series $1,1,1,...$ and even manipulate it in useful ways.
+Thus, even though $$f(x)=1/(1-x)$$ blows up when $$x=0$$, and $$f(x)=\sum_{n=0}^{\infty} x^n$$ diverges if $$x \geq 1$$, I can use the compact form, unambiguously, to stand for the series $$1,1,1,...$$ and even manipulate it in useful ways.
 
 Useful how? I'll have to read some more, then post again.
 
@@ -62,7 +62,9 @@ Now I have to back up and figure out how to get equations that display correctly
 
 Back to the drawing board.
 
+### 25 June 2024. Aaaaah. That feels *much* better.
 
+Okey doke. Now I have a theme that displays equations. I can move forward.
 
 
 
