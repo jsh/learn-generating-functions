@@ -1,6 +1,7 @@
 ---
 title: "Playing With Sage"
 date: 2024-06-16
+layout: post
 ---
 
 Many tutorials I peeked at, including the pair I link to in the [Tutorial Material post](2024-06-16-Tutorial-Material.md), encourage using computer-algebra systems.
