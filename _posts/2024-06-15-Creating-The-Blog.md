@@ -1,7 +1,7 @@
 ---
-layout: post
 title: "Creating The Blog"
 date: 2024-06-15
+layout: post
 ---
 
 First step: Actually creating the blog.
