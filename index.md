@@ -1,5 +1,6 @@
 ---
-title: Generating Functions
+title: Learn Generating Functions
+layout: page
 ---
 
 I'm going to try to learn how to work with generating functions,
