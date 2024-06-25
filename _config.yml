@@ -5,3 +5,4 @@ remote_theme: jsh/minima
 title: Exploring Generating Functions
 author: Jeffrey S. Haemer
 description: I learn how to think about and work with generating functions.
+show_excerpts: true
