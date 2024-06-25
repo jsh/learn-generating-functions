@@ -1,6 +1,7 @@
 ---
 title: "Tutorial Material"
 date: 2024-06-16
+layout: post
 ---
 
 When I looked for tutorial material on generating functions, I found plenty.
