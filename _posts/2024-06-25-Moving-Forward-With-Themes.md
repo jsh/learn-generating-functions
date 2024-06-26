@@ -23,3 +23,10 @@ I'll take a few moments to improve `_config.yml` by tweaking some settings I lea
 about generating functions.
 
 Somehow, my skin and my about.md pages are being ignored, but a step at a time.
+Ah, and now I'm not pulling in the remote theme. Sigh.
+
+Okay, back to the drawing board and I'll do it the hard way.
+I'll copy the jekyll/minima theme, piece by piece, not use a remote theme at all, get it to work on my laptop, then substitute my own content,
+and commit a working result.
+
+I'll use a giant hammer: brute force.

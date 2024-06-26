@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Moving Forward With Themes | Exploring Generating Functions</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Moving Forward With Themes" />
+<meta name="author" content="Jeffrey S. Haemer" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Finally! A theme that works." />
+<meta property="og:description" content="Finally! A theme that works." />
+<link rel="canonical" href="http://localhost:4000/2024/06/25/Moving-Forward-With-Themes.html" />
+<meta property="og:url" content="http://localhost:4000/2024/06/25/Moving-Forward-With-Themes.html" />
+<meta property="og:site_name" content="Exploring Generating Functions" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-06-25T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Moving Forward With Themes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeffrey S. Haemer"},"dateModified":"2024-06-25T00:00:00-06:00","datePublished":"2024-06-25T00:00:00-06:00","description":"Finally! A theme that works.","headline":"Moving Forward With Themes","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2024/06/25/Moving-Forward-With-Themes.html"},"url":"http://localhost:4000/2024/06/25/Moving-Forward-With-Themes.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Exploring Generating Functions" />
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Exploring Generating Functions</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">about generating functions</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Moving Forward With Themes</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2024-06-25T00:00:00-06:00" itemprop="datePublished">
+        Jun 25, 2024
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Finally! A theme that works.</p>
+
+<h1 id="what-i-figured-out">What I figured out.</h1>
+
+<p>GitHub lets me use LaTeX to write equations inside of markdown, but Jekyll doesn’t, at least by default.
+I was able to stick in equations and have them display fine in my browser, while I was looking at the GitHub repo,
+but when I turned them into static pages, all I saw was the LaTeX source.</p>
+
+<p>Ugh.</p>
+
+<p>I had to take the time to understand more about Jekyll, fork <code class="language-plaintext highlighter-rouge">jekyll/minima</code>, modify it to handle LaTeX through MathJax,
+then have this blog specify <code class="language-plaintext highlighter-rouge">remote_theme: jsh/minima</code> (my forked and modified version), instead of <code class="language-plaintext highlighter-rouge">theme: minima</code>
+in <code class="language-plaintext highlighter-rouge">_config.yml</code>.</p>
+
+<p>I now know enough to make a much nicer theme, but I want to move forward. I can always come back to tweaking the theme.</p>
+
+<p>I’ll take a few moments to improve <code class="language-plaintext highlighter-rouge">_config.yml</code> by tweaking some settings I learned about along the way, but then go back to blogging
+about generating functions.</p>
+
+<p>Somehow, my skin and my about.md pages are being ignored, but a step at a time.
+Ah, and now I’m not pulling in the remote theme. Sigh.</p>
+
+<p>Okay, back to the drawing board and I’ll do it the hard way.
+I’ll copy the jekyll/minima theme, piece by piece, not use a remote theme at all, get it to work on my laptop, then substitute my own content,
+and commit a working result.</p>
+
+<p>I’ll use a giant hammer: brute force.</p>
+
+  </div><a class="u-url" href="/2024/06/25/Moving-Forward-With-Themes.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="http://localhost:4000/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        <ul class="contact-list">
+          <li class="p-name">Jeffrey S. Haemer</li>
+          <li><a class="u-email" href="mailto:jeffrey.haemer@gmail.com">jeffrey.haemer@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>I learn how to think about and work with generating functions.
+</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

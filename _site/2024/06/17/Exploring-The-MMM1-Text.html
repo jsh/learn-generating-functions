@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Exploring The MMM1 Text | Exploring Generating Functions</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Exploring The MMM1 Text" />
+<meta name="author" content="Jeffrey S. Haemer" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I’ll start by browsing Mike Zabrocki’s MMM1 (Mini-Mathematical Monographs), on Ordinary Generating Functions (OGFs). I’ll call it a book, even though it’s on-line and only sixty-two pages – five chapters." />
+<meta property="og:description" content="I’ll start by browsing Mike Zabrocki’s MMM1 (Mini-Mathematical Monographs), on Ordinary Generating Functions (OGFs). I’ll call it a book, even though it’s on-line and only sixty-two pages – five chapters." />
+<link rel="canonical" href="http://localhost:4000/2024/06/17/Exploring-The-MMM1-Text.html" />
+<meta property="og:url" content="http://localhost:4000/2024/06/17/Exploring-The-MMM1-Text.html" />
+<meta property="og:site_name" content="Exploring Generating Functions" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-06-17T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Exploring The MMM1 Text" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jeffrey S. Haemer"},"dateModified":"2024-06-17T00:00:00-06:00","datePublished":"2024-06-17T00:00:00-06:00","description":"I’ll start by browsing Mike Zabrocki’s MMM1 (Mini-Mathematical Monographs), on Ordinary Generating Functions (OGFs). I’ll call it a book, even though it’s on-line and only sixty-two pages – five chapters.","headline":"Exploring The MMM1 Text","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2024/06/17/Exploring-The-MMM1-Text.html"},"url":"http://localhost:4000/2024/06/17/Exploring-The-MMM1-Text.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Exploring Generating Functions" />
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Exploring Generating Functions</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">about generating functions</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Exploring The MMM1 Text</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2024-06-17T00:00:00-06:00" itemprop="datePublished">
+        Jun 17, 2024
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>I’ll start by browsing Mike Zabrocki’s MMM1 (Mini-Mathematical Monographs), on Ordinary Generating Functions (OGFs). I’ll call it a book, even though it’s on-line and only sixty-two pages – five chapters.</p>
+
+<p>He’s exploring himself, and the book has some associated videos.
+I can only try to judge whether it works for me.</p>
+
+<h2 id="chapter-1-introduction">Chapter 1: Introduction</h2>
+
+<p>He sketches the required background, which I think I have.</p>
+
+<ul>
+  <li>I’m comfy with basic, high-school algebra.</li>
+  <li>I can manipulate elementary functions: sin, cos, exponentials, logs, etc.</li>
+  <li>I know summation notation, and I’m not frightened by infinite series</li>
+  <li>I can differentiate and integrate, as long as it’s not too sophisticated.</li>
+</ul>
+
+<p>Good enough.</p>
+
+<h2 id="chapter-2-generating-functions-neither-generate-nor-are-they-functions">Chapter 2: Generating Functions Neither Generate, Nor Are They Functions.</h2>
+
+<p>I have to admit I love the chapter title.</p>
+
+<p>Generating functions are formal polynomials. There’s no notion so far of taking them seriously as functions, but I’ve read that such polynomials can just be thought of as a <em>ring</em>, which is basically a field without guaranteed inverses or commutativity.</p>
+
+<p>In other words, you can add, subtract, and multiply them. Polynomial multiplication actually is commutative, so I’d guess they only aren’t a field because some don’t have inverses.</p>
+
+<p>The coefficients of the polynomial terms are the elements of the series.</p>
+
+<p>For now, I see OGFs as a notational convenience.</p>
+
+<p>An example would help, here, but before I go farther, I need to find out is whether I can write equations
+in blogposts. If not, it’s going to be tough to blog about generating functions.</p>
+
+<h3 id="can-i-write-equations-using-markdown">Can I Write Equations Using Markdown?</h3>
+
+<p>I’ll try a sample example. Let’s start with the constant sequence \(1,1,1,1,...\)
+The generating function for this is \(1+x+x^2+x^3+...\), each coefficient of \(x^n\) being \(1\) .
+I could write that as \(f(x) = \sum_{n=0}^{\infty} x^n\)
+or, more compactly, as \(f(x) = 1/(1-x)\)</p>
+
+<p>Okey doke, I can use LaTex for equations. Surrounding an equation with ‘$’ displays it correctly; surrounding it with ‘$$’ puts the equation on its own line. Yay.</p>
+
+<p>I’ll need more fluency in LaTex, but that’s within reach.</p>
+
+<h3 id="back-to-ogfs">Back to OGFs</h3>
+
+<p>Thus, even though \(f(x)=1/(1-x)\) blows up when \(x=0\), and \(f(x)=\sum_{n=0}^{\infty} x^n\) diverges if \(x \geq 1\), I can use the compact form, unambiguously, to stand for the series \(1,1,1,...\) and even manipulate it in useful ways.</p>
+
+<p>Useful how? I’ll have to read some more, then post again.</p>
+
+<h3 id="oh-argh">Oh, argh.</h3>
+
+<p>After deploying this post, I showed it to Jeff Wright in a screen share on a Zoom call.</p>
+
+<p>And the equations didn’t display correctly. Feh.</p>
+
+<p>GitHub itself interprets them correctly, but perhaps Jekyll gets confused.
+Now I have to back up and figure out how to get equations that display correctly in GitHub Markdown to display correctly in a compiled, deployed page.</p>
+
+<p>Back to the drawing board.</p>
+
+<h3 id="25-june-2024-aaaaah-that-feels-much-better">25 June 2024. Aaaaah. That feels <em>much</em> better.</h3>
+
+<p>Okey doke. Now I have a theme that displays equations. I can move forward.</p>
+
+
+  </div><a class="u-url" href="/2024/06/17/Exploring-The-MMM1-Text.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="http://localhost:4000/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        <ul class="contact-list">
+          <li class="p-name">Jeffrey S. Haemer</li>
+          <li><a class="u-email" href="mailto:jeffrey.haemer@gmail.com">jeffrey.haemer@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>I learn how to think about and work with generating functions.
+</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
