@@ -21,3 +21,5 @@ I now know enough to make a much nicer theme, but I want to move forward. I can 
 
 I'll take a few moments to improve `_config.yml` by tweaking some settings I learned about along the way, but then go back to blogging
 about generating functions.
+
+Somehow, my skin and my about.md pages are being ignored, but a step at a time.
