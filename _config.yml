@@ -1,7 +1,5 @@
 remote_theme: jsh/minima
 title: Exploring Generating Functions
-author:
-  name: Jeffrey S. Haemer
-  email: jeffrey.haemer@gmail.com
+author: Jeffrey S. Haemer
 description: I learn how to think about and work with generating functions.
 show_excerpts: true
