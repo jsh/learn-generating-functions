@@ -37,18 +37,18 @@ in blogposts. If not, it's going to be tough to blog about generating functions.
 
 ### Can I Write Equations Using Markdown?
 
-I'll try a sample example. Let's start with the constant sequence $$1,1,1,1,...$$
-The generating function for this is $$1+x+x^2+x^3+...$$, each coefficient of $$x^n$$ being $$1$$ .
-I could write that as $$f(x) = \sum_{n=0}^{\infty} x^n$$
-or, more compactly, as $$f(x) = 1/(1-x)$$
+I'll try a sample example. Let's start with the constant sequence $1,1,1,1,...$ .
+The generating function for this is $1+x+x^2+x^3+...$, each coefficient of $x^n$ being $1$ .
+I could write that as $$f(x) = \sum_{n=0}^{\infty} x^n$$,
+or, more compactly, as $f(x) = 1/(1-x)$ .
 
-Okey doke, I can use LaTex for equations. Surrounding an equation with '$' displays it correctly; surrounding it with '$$' puts the equation on its own line. Yay.
+Okey doke, I can use LaTex for equations. Surrounding an equation with '$' displays it correctly; surrounding it with '$$' puts the equation on its own line in GitHub. Yay.
 
 I'll need more fluency in LaTex, but that's within reach.
 
 ### Back to OGFs
 
-Thus, even though $$f(x)=1/(1-x)$$ blows up when $$x=0$$, and $$f(x)=\sum_{n=0}^{\infty} x^n$$ diverges if $$x \geq 1$$, I can use the compact form, unambiguously, to stand for the series $$1,1,1,...$$ and even manipulate it in useful ways.
+Thus, even though $f(x)=1/(1-x)$ blows up when $x=0$, and $$f(x)=\sum_{n=0}^{\infty} x^n$$ diverges if $x \geq 1$, I can use the compact form, unambiguously, to stand for the series $1,1,1,...$ and even manipulate it in useful ways.
 
 Useful how? I'll have to read some more, then post again.
 
