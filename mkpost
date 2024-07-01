@@ -1,25 +1,19 @@
 #!/bin/bash -eu
 
-# Prompt for the title
-# read -p "Enter the title: " title
-
 # Get today's date
 date=$(date +"%F")
-detailed_date=$(date +"%F %T %z")
 
 title="$*"
-slug="$1"
 
 # Define the file path
-file_path="_posts/${date}-${title// /-}.md"
+slug="${title// /-}"
+file_path="_posts/${date}-${slug}.md"
 
 # Create the new markdown file with front matter
 cat <<EOL > $file_path
 ---
 title: "${title}"
-date: ${detailed_date}
 slug: "${slug}"
-author: jsh
 layout: post
 ---
 
