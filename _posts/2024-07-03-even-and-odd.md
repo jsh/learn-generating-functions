@@ -59,3 +59,4 @@ to find a clean presentation that they're now in my head.
 It's a little awkward that the odd numbers, $\lbrace 1, 3, 5, ... \rbrace$ are the even coefficients $\lbrace a_0, a_2, a_4, ... \rbrace$, and vice-versa.
 I could fix that by starting with the non-negative integers, $\lbrace 0, 1, 2, 3 \rbrace$, but the formulae and derivations become messier, so I won't worry about it.
 
+It isn't at all obvious to me how I'd get, say, every third term.
