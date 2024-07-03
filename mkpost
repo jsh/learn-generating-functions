@@ -1,12 +1,13 @@
-#!/bin/bash -eu
+#!/opt/homebrew/bin/bash -eu
 
 # Get today's date
-date=$(date +"%F")
+date=$(date +"%F")                         # YYYY-MM-DD
 
 title="$*"
 
 # Define the file path
-slug="${title// /-}"
+slug="${title// /-}"                       # turn spaces into dashes
+slug="${slug,,}"                           # lower-case
 file_path="_posts/${date}-${slug}.md"
 
 # Create the new markdown file with front matter
