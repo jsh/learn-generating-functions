@@ -70,15 +70,22 @@ So, here are the steps:
 
 ## Trying the method out on a less obvious recurrence.
 
-How's about, I dunno ... something like this: $$g_{n+1} = 3g_n + 2 ; g_0 = 0$$
+How's about, I dunno ... something like this: 
+
+$$g_{n+1} = 3g_n + 2 ; g_0 = 5$$
+
+(I'm making this recursion up arbitrarily. I hope it works out.)
 
 This turns into $$\sum_{n=0} g_{n+1}x^n = \sum_{n=0} 3g_n x^n + \sum_{n=0} 2x^n = 3G(x) + 2/(1-x)$$
-The lhs is $$(\sum_{n=0} g_{n+1}x^{n+1})/x = (\sum_{n=1} g_n x^n)/x = (\sum_{n=0} g_n x^n - g_0x_0)/x =
-G(x)/x$$
-(Remember, $g_0 = 0$)
+The lhs is $$(\sum_{n=0} g_{n+1}x^{n+1})/x = (\sum_{n=1} g_n x^n)/x = (\sum_{n=0} g_n x^n - g_0 x^0)/x =
+(G(x) - 5)/x$$
 
 Now I solve:
 
-$$G(x)/x = 3G(x) + 2/(1-x); G(x)(1-3x) = 2x/(1-x); G(x) = \frac{2x}{(1-x)(1-3x)}$$
+$$(G(x) - 5)/x = 3G(x) + 2/(1-x); G(x)(1-3x) = 5 + 2x/(1-x) = \frac{5(1-x) + 2x}{(1-x)}$$
+
+Thus:
+
+$$G(x) = \frac{5-3x}{(1-x)(1-3x)}$$
 
 Fine. How the heck can I convince myself that's the right answer?
