@@ -85,7 +85,7 @@ Well, *I* sure as hell couldn't have.
 
 Plus, as every text that goes through this example points out, 
 ${\phi_{-}}^n$ quickly vanishes as $n$ gets big,
-which means rounding $\frac{{\phi_{+}}^n}{\sqrt{5}}$ to the nearest integer
+which means rounding $\frac{1}{\sqrt{5}} {\phi_{+}}^n$ to the nearest integer
 is another way to get the $n^{th}$ Fibonacci number.
 
 Go figure. But, again, cool!
