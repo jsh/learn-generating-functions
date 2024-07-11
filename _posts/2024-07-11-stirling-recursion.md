@@ -77,6 +77,6 @@ Turning this reasoning sideways and generalizing, I can get a permutation of $n+
 
 That is,
 
-${{n+1} \brack k} = {n \brack {k-1}} + n {n \brack k}$
+${n+1 \brack k} = {n \brack k-1} + n {n \brack k}$
 
 There's my recursion for the Stirling numbers (unsigned, of the first kind).
