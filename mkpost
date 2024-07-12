@@ -10,6 +10,8 @@ slug="${title// /-}"                       # turn spaces into dashes
 slug="${slug,,}"                           # lower-case
 file_path="_posts/${date}-${slug}.md"
 
+
+
 # Create the new markdown file with front matter
 cat <<EOL > $file_path
 ---
@@ -22,3 +24,9 @@ EOL
 
 echo "New post created at $file_path"
 vim +$ $file_path
+
+"scripts": {
+  "prebuild": "ruby generate_posts_list.rb && echo 'Generated posts list.'"
+}
+npm run prebuild
+npm run build
