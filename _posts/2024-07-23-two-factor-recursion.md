@@ -1,13 +1,20 @@
 ---
 title: two factor recursion
-layout: post
 slug: two-factor-recursion
+layout: post
 ---
+
 Okay, what shall I blog about? Let me retreat to two-factor recursion,
 which I had to do once I understood that I couldn't use the lovely approach
 that works for one-factor recursions.
 
 ## The binomial coefficients.
+
+| sequence | generating function | closed form |
+| -------- | ------------------- | ----------- |
+|<1,4,6,4,1,0,0,...> | $\sum_{n\geq 0}{4 \choose n}z^n$ | $(1+z)^4$ |
+|$<1,c, {c \choose 2}, {c \choose 3} ,...>$| $\sum_{n\geq 0}{c \choose n}z^n$ | $(1+z)^c$ |
+
 To learn how to proceed, I went back to *generatingfunctionology*.
 I'll try to explain what Wilts explains better than I,
 because the act of explaining will help cement in what I learned from him.
@@ -20,8 +27,8 @@ This is the number of ways to choose $k$ items, without replacement from $n$.
 From Pascal's triangle, I can see that $b(n, k) = b(n-1, k-1) + b(n-1, k)$
 Or, as a table
 
-| n | k = 0, 1, 2, etc  |
-|---|-------------------|
+| n | k=0,1,2,3,... |
+| - | ------------- |
 | 0 | 1 |
 | 1 | 1 1 |
 | 2 | 1 2 1 |
