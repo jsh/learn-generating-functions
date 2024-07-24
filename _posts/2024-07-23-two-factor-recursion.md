@@ -13,19 +13,21 @@ I'll try to explain what Wilts explains better than I,
 because the act of explaining will help cement in what I learned from him.
 
 ### the binomial recursion
+
 I'll use $b(n, k)$ as an easier way to type $n \brace k$, the binomial coefficients.
 This is the number of ways to choose $k$ items, without replacement from $n$.
 
 From Pascal's triangle, I can see that $b(n, k) = b(n-1, k-1) + b(n-1, k)$
+Or, as a table
 
- |n| k = 0, 1, 2, ... |
- |--|------------|
- | 0 |  1 |
- | 1 |  1 1 |
- | 2 |  1 2 1 |
- | 3 |  1 3 3 1 |
- | 4 |  1 4 6 4 1 |
-    ...
+| n | k = 0, 1, 2, etc  |
+|---|-------------------|
+| 0 | 1 |
+| 1 | 1 1 |
+| 2 | 1 2 1 |
+| 3 | 1 3 3 1 |
+| 4 | 1 4 6 4 1 |
+...
 
 For example $b(4, 2) = 6 = b(3,1) + b(3,2) = 3 + 3$
 
