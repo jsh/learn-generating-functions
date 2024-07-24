@@ -15,6 +15,11 @@ that works for one-factor recursions.
 |<1,4,6,4,1,0,0,...> | $\sum_{n\geq 0}{4 \choose n}z^n$ | $(1+z)^4$ |
 |$<1,c, {c \choose 2}, {c \choose 3} ,...>$| $\sum_{n\geq 0}{c \choose n}z^n$ | $(1+z)^c$ |
 
+| sequence | generating function | closed form |
+| -------- | ------------------- | ----------- |
+|<1,4,6,4,1,0,0,...> | $\sum_{n\geq 0}{4 \choose n}z^n$ | $(1+z)^4$ |
+|$<1,c, {c \choose 2}, {c \choose 3} ,...>$| $\sum_{n\geq 0}{c \choose n}z^n$ | $(1+z)^c$ |
+
 To learn how to proceed, I went back to *generatingfunctionology*.
 I'll try to explain what Wilts explains better than I,
 because the act of explaining will help cement in what I learned from him.
