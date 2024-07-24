@@ -10,17 +10,6 @@ that works for one-factor recursions.
 
 ## The binomial coefficients.
 
-| sequence | generating function | closed form |
-| -------- | ------------------- | ----------- |
-|<1,4,6,4,1,0,0,...> | $\sum_{n\geq 0}{4 \choose n}z^n$ | $(1+z)^4$ |
-|$<1,c, {c \choose 2}, {c \choose 3} ,...>$| $\sum_{n\geq 0}{c \choose n}z^n$ | $(1+z)^c$ |
-
-
-
-| n | k=0,1,2,3,... |
-| - | ------------- |
-| 0 | 1 |
-
 To learn how to proceed, I went back to *generatingfunctionology*.
 I'll try to explain what Wilts explains better than I,
 because the act of explaining will help cement in what I learned from him.
@@ -40,8 +29,7 @@ Or, as a table
 | 2 | 1 2 1 |
 | 3 | 1 3 3 1 |
 | 4 | 1 4 6 4 1 |
-
-...
+|...|...|
 
 For example $b(4, 2) = 6 = b(3,1) + b(3,2) = 3 + 3$
 
@@ -81,14 +69,14 @@ Also, $b(n, 0) = b(n, n) = 1$, so each row has exactly $n+1$ entries.
 
 Let me enlarge it.  Suppose I say $b(n, k) = 0$ for $k>n$ or $k<0$, so my table looks like this:
 
- |n| k = $-\infty ... \infty$ |
+ |n| $k = -\infty ... \infty$ |
  |--|------------|
  | 0 | ...0 0 1 0 0 ...|
  | 1 | ...0 0 1 1 0 0 ...|
  | 2 | ...0 0 1 2 1 0 0 ... |
  | 3 | ...0 0 1 3 3 1 0 0 ... |
  | 4 | ...0 0 1 4 6 4 1 0 0 ... |
-    ...
+ |...|...|
 
 The recursion still works outside the earlier limits.
 
