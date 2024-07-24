@@ -19,6 +19,7 @@ that works for one-factor recursions.
 
 | n | k=0,1,2,3,... |
 | - | ------------- |
+| 0 | 1 |
 |<1,4,6,4,1,0,0,...> | $\sum_{n\geq 0}{4 \choose n}z^n$ |
 |$<1,c, {c \choose 2}, {c \choose 3} ,...>$| $\sum_{n\geq 0}{c \choose n}z^n$ |
 
