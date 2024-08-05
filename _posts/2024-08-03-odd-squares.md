@@ -49,13 +49,8 @@ What is $\[x^n\]g(x)$ ?
 
 First, I'll write the RHS as $g(x) = (1 + 6x + x^2)(1-x)^{-3}$
 
-Next, I'll do
 
-$$(1-x)^{-3} = \sum {-3 \choose k} x^k = \sum {{3+k-1} \choose k } x^k = \sum \frac{(k+2)(k+1)}{2} x^k = h(x)$$
 
-I need $\[x^n\] g(x) = \[x^n\] (x^2 + 6x + 1) h(x)$
-
-This is
 
 ### Success!
 
