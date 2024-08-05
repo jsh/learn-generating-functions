@@ -62,11 +62,3 @@ $$\[x^{n-2}\]h(x) + 6\[x^{n-1}\]h(x) + \[x^n\]h(x)$$
 $$ = (1/2)(n(n-1) + 6n(n+1) + (n+1)(n+2)) = (1/2)(n^2 - n + 6n^2 + 6n + n^2 + 3n + 2) = (1/2)(4n^2 + 4n + 2)$$
 
 $$ = 2n^2 + 2n + 1 = (2n+1)^2$$
-
-
-### Success!
-
-I just derived, without help, the OGF for the series $<1, 9, 25, 49, ...>$ -- the odd squares --
-and then turned right around and showed that the coefficients of that OGF, when expanded, are $a_n = (2n+1)^2$, the odd squares.
-
-I get how to do a lot of basic operations.
